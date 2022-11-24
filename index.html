@@ -1,93 +1,198 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="resetcss" href="reset.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    </head>
 
-    <header class="page-header">
-        <img src="./img/search.svg" alt="Search Button"/>
-        <input type="text" placeholder="Search...">
-        <img src="./img/alert.svg" alt="Alet Bell"/>
-        <p>Donald Pickens</p>
-    </header>
+    <body>
+ 
+        <!-- Sidebar -->
+             <div class="sidebar">
+                
+                <div class="sidebar-header">
+                            <img src="./img/main-logo.svg" alt="HomePage Logo" height="25px" width="25px"/>
+                            <h2>HomePage</h2>
+                </div>
 
-    <div class="left-sidebar-container">
-        <h1>
-            <img src="./img/main-logo.svg" alt="HomePage Logo"/>
-            <p>HomePage</p>
-        </h1>
-        <div class="main-sidebar-links">
-            <ul>
-                <li>
-                    <img src="./img/home-circle.svg" alt="Home"/>
-                    <p>Home</p>
-                </li>
-                <li>
-                    <img src="./img/profile.svg" alt="Profile"/>
-                    <p>Profile</p>
-                </li>
-                <li>
-                    <img src="./img/messages.svg" alt="Messages"/>
-                    <p>Messages</p>
-                </li>
-                <li>
-                    <img src="./img/clock.svg" alt="Clock"/>
-                    <p>History</p>
-                </li>
-                <li>
-                    <img src="./img/tasks.svg" alt="Tasks"/>
-                    <p>Tasks</p>
-                </li>
-                <li>
-                    <img src="./img/group.svg" alt="Community"/>
-                    <p>Community</p>
-                </li>
-            </ul>
-        </div>
+                <div class="sidebar-main-content">
+                        <div class="home-circle">
+                            <img src="./img/home-circle.svg" alt="Home" width="25px" height="25px"/>
+                            <p>Home</p>
+                        </div>
+                        <div class="profile">
+                            <img src="./img/profile.svg" alt="Profile" width="25px" height="25px"/>
+                            <p>Profile</p>
+                        </div>
+                        <div class="messages">
+                            <img src="./img/messages.svg" alt="Messages" width="25px" height="25px"/>
+                            <p>Messages</p>
+                        </div>
+                        <div class="history">
+                            <img src="./img/clock.svg" alt="Clock" width="25px" height="25px"/>
+                            <p>History</p>
+                        </div>
+                        <div class="tasks">
+                            <img src="./img/tasks.svg" alt="Tasks" width="25px" height="25px"/>
+                            <p>Tasks</p>
+                        </div>
+                        <div class="communities">
+                            <img src="./img/group.svg" alt="Community" width="25px" height="25px"/>
+                            <p>Community</p>
+                        </div>
+                </div>
+                    
+                <div class="sidebar-secondary-content">
+                        <div class="settings">
+                            <img src="./img/settings.svg" alt="Settings" width="25px" height="25px"/>
+                            <p>Settings</p>
+                        </div>
+                        <div class="support">
+                            <img src="./img/support.svg" alt="Support" width="25px" height="25px"/>
+                            <p>Support</p>
+                        </div>
+                        <div class="privacy">
+                            <img src="./img/privacy.svg" alt="Account Privacy" width="25px" height="25px"/>
+                            <p>Privacy</p>
+                        </div>
+                </div>
+                
+            </div> 
 
-        <div class"secondary-sidebar-links>
-            <ul>
-                <li>
-                    <img src="./img/settings.svg" alt="Settings"/>
-                    <p>Settings</p>
-                </li>
-                <li>
-                    <img src="./img/privacy.svg" alt="Account Privacy"/>
-                    <p>Account Privacy</p>
-                </li>
-                <li>
-                    <img src="./img/support.svg" alt="Support"/>
-                    <p>Support</p>
-                </li>
-            </ul>
-        </div>
+        <!-- Header -->
+             <div class="header">
+                        <div class="header-searchbar">
+                                <img src="./img/search.svg" class="search-icon" alt="Search Icon" width="25px" height="25px"/>
+                                <form class="form"> 
+                                    <input type="search" class="query" name="q" placeholder="Search...">
+                                </form>
+                        </div>
+                        <div class="user-corner">
+                            <img src="./img/alert.svg" class="alert-icon" alt="Alert Icon" width="25px" height="25px"/>
+                            <img src="./img/sadboiemote.png" class="sadboiclass-row1 alt="Sad Boi"/>
+                            <p>Donald Pickens</p>
+                        </div>
+                    
 
-    </div>
-
-    <div class="body-content-container">
-        <h2>Your Projects</h2>
-        <!---Add Content and icons to each project child.-->
-            <div class="projects-container">
-                <div class="child-1"></div>
-                <div class="child-2"></div>
-                <div class="child-3"></div>
-                <div class="child-4"></div>
-                <div class="child-5"></div>
-                <div class="child-6"></div>
+    
+                        <div class="user-intro">
+                            <img src="./img/sadboiemote.png" class="sadboiclass-row2 alt="Sad Boi"/>
+                            <p class="hi-there">Hi there,</p>
+                            <h2 class="main-page-name">Donald Pickens (@doobiepickens)</h2>
+                        </div>
+                        
+                        <div class="header-buttons-container">
+                                <button class="newbtn">New</button>
+                                <button class="uploadbtn">Upload</button>
+                                <button class="sharebtn">Share</button>
+                         </div>
+                    
             </div>
-        <div class="announcements-container">
-            <h3>Announcements</h3>
-                <div class="child-7"></div>
-                <div class="child-8"></div>
-        </div>
-    </div>
+ 
+        <!-- Content -->
+        <div class="content">
+                 
+            <!-- Main content container -->
 
-    <div class="trending-container">
-        <h4>Trending</h4>
-    </div>
+            <!-- TO-DO: need to add icons in each main content child, and avi's in the trending section. -->
+                    <div class="projects-container">
+                       <!--  <h4 class="projects-header">Your Projects</h4> -->
+                        
+                            <div class="main-content-child-1">
+                                <h5>Super Cool Project</h5>
+                                <p>This excellent project is so great and interesting. Grid is so difficult I can't progress in this course.</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                            <div class="main-content-child-2">
+                                <h5>Less Cool Project</h5>
+                                <p>I'm sure up next will be more javascript, which will make me want to quit even more than I do right now!</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                            <div class="main-content-child-3">
+                                <h5>Impossible App</h5>
+                                <p>Once I finally create the impossilbe app I'll be rich beyone belief.</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                            <div class="main-content-child-4">
+                                <h5>Easy Peasy App</h5>
+                                <p>I wish I could be paid for an easy peasy app. I'd make it right now and cash out.</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                            <div class="main-content-child-5">
+                                <h5>Ad Blocker</h5>
+                                <p>If I create an add blocker then I might make some serious cash. Nobody likes ads.</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                            <div class="main-content-child-6">
+                                <h5>Money Maker</h5>
+                                <p>When the money comes it's over. Laughin' at the haters while I cruise through.</p>
+                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                            </div>
+                        
+                        </div>
 
-</body>
-</html>
+        <!-- Content side section- announcements and trending -->
+                        <div class="side-content-container">
+        <!-- Announcements -->
+                            <h4 class="annoucnements-header">Announcements</h4>
+                            <div class="announcements-container">
+                                <div class="announcement-1">
+                                    <h5>Site Maintnence</h5>
+                                    <p>If this site needs maintenance figure it out yourself.</p>
+                                </div>
+                                <div class="announcement-2">
+                                    <h5>Community Share Day</h5>
+                                    <p>If I ever make enough money to be comfortable I will go home and give back to my community.</p>
+                                </div>
+                                <div class="announcement-3">
+                                    <h5>Updated Privacy Policy</h5>
+                                    <p>We don't have a privacy policy but if we did we would put it here.</p>
+                                </div>
+                            </div>
+        <!-- Trending --> <!-- add in avi's for each page -->
+                            <h4>Trending</h4>
+                            <div class="trending-container">
+                                <div class="trending-1">
+                                    <h5>@elonmusk</h5>
+                                    <p>I bought twitter and fired everyone.</p>
+                                </div>
+                                <div class="trending-2">
+                                    <h5>@giftedhater</h5>
+                                    <p>Better skater than Tyshawn Jones.</p>
+                                </div>
+                                <div class="trending-3">
+                                    <h5>@tyshawn</h5>
+                                    <p>I sw ollie picnic tables long way.</p>
+                                </div>
+                                <div class="trending-4">
+                                    <h5>@POTUS</h5>
+                                    <p>Let me get rid of your debt!</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+
+    </body>
+
+
+    </html>
