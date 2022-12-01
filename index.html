@@ -2,9 +2,9 @@
 
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css"/>
         <link rel="resetcss" href="reset.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -18,8 +18,8 @@
              <div class="sidebar">
                 
                 <div class="sidebar-header">
-                            <img src="./img/main-logo.svg" alt="HomePage Logo" height="25px" width="25px"/>
-                            <h2>HomePage</h2>
+                            <h2 class="page-title-header">
+                                <img src="./img/main-logo.svg" class="main-logo" alt="HomePage Logo" height="25px" width="25px"/>HomePage</h2>
                 </div>
 
                 <div class="sidebar-main-content">
@@ -69,8 +69,9 @@
         <!-- Header -->
              <div class="header">
                         <div class="header-searchbar">
-                                <img src="./img/search.svg" class="search-icon" alt="Search Icon" width="25px" height="25px"/>
-                                <form class="form"> 
+                                
+                                <form class="searchbar-container"> 
+                                    <img src="./img/search.svg" class="search-icon" alt="Search Icon" width="25px" height="25px"/>
                                     <input type="search" class="query" name="q" placeholder="Search...">
                                 </form>
                         </div>
@@ -97,55 +98,68 @@
             </div>
  
         <!-- Content -->
+        
         <div class="content">
                  
             <!-- Main content container -->
 
             <!-- TO-DO: need to add icons in each main content child, and avi's in the trending section. -->
                     <div class="projects-container">
-                       <!--  <h4 class="projects-header">Your Projects</h4> -->
-                        
+                        <!-- <h4 class="projects-header">Your Projects</h4> -->
+
                             <div class="main-content-child-1">
                                 <h5>Super Cool Project</h5>
                                 <p>This excellent project is so great and interesting. Grid is so difficult I can't progress in this course.</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                             <div class="main-content-child-2">
                                 <h5>Less Cool Project</h5>
                                 <p>I'm sure up next will be more javascript, which will make me want to quit even more than I do right now!</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                             <div class="main-content-child-3">
                                 <h5>Impossible App</h5>
                                 <p>Once I finally create the impossilbe app I'll be rich beyone belief.</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                             <div class="main-content-child-4">
                                 <h5>Easy Peasy App</h5>
                                 <p>I wish I could be paid for an easy peasy app. I'd make it right now and cash out.</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                             <div class="main-content-child-5">
                                 <h5>Ad Blocker</h5>
                                 <p>If I create an add blocker then I might make some serious cash. Nobody likes ads.</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                             <div class="main-content-child-6">
                                 <h5>Money Maker</h5>
                                 <p>When the money comes it's over. Laughin' at the haters while I cruise through.</p>
-                                <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
-                                <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
-                                <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                <div class="content-icons">
+                                    <img src="img/starplus.svg" class="star-plus" alt="favorite" height="20px" width="20px"/>
+                                    <img src="img/eyeplus.svg" class="eye-plus" alt="viewers" height="20px" width="20px"/>
+                                    <img src="img/source-branch.svg" class="src-branch" alt="share" height="20px" width="20px"/>
+                                </div>
                             </div>
                         
                         </div>
@@ -156,15 +170,15 @@
                             <h4 class="annoucnements-header">Announcements</h4>
                             <div class="announcements-container">
                                 <div class="announcement-1">
-                                    <h5>Site Maintnence</h5>
+                                    <h6>Site Maintnence</h6>
                                     <p>If this site needs maintenance figure it out yourself.</p>
                                 </div>
                                 <div class="announcement-2">
-                                    <h5>Community Share Day</h5>
+                                    <h6>Community Share Day</h6>
                                     <p>If I ever make enough money to be comfortable I will go home and give back to my community.</p>
                                 </div>
                                 <div class="announcement-3">
-                                    <h5>Updated Privacy Policy</h5>
+                                    <h6>Updated Privacy Policy</h6>
                                     <p>We don't have a privacy policy but if we did we would put it here.</p>
                                 </div>
                             </div>
@@ -172,19 +186,19 @@
                             <h4>Trending</h4>
                             <div class="trending-container">
                                 <div class="trending-1">
-                                    <h5>@elonmusk</h5>
+                                    <h6>@elonmusk</h6>
                                     <p>I bought twitter and fired everyone.</p>
                                 </div>
                                 <div class="trending-2">
-                                    <h5>@giftedhater</h5>
+                                    <h6>@giftedhater</h6>
                                     <p>Better skater than Tyshawn Jones.</p>
                                 </div>
                                 <div class="trending-3">
-                                    <h5>@tyshawn</h5>
+                                    <h6>@tyshawn</h6>
                                     <p>I sw ollie picnic tables long way.</p>
                                 </div>
                                 <div class="trending-4">
-                                    <h5>@POTUS</h5>
+                                    <h6>@POTUS</h6>
                                     <p>Let me get rid of your debt!</p>
                                 </div>
                             </div>
